@@ -1,0 +1,22 @@
+h3{
+    font-size: 30px !important;
+}
+
+.btn-warning {
+    margin: 20px ;
+}
+
+.btn-warning:hover {
+    background-color: green;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px #ff56ff;}
+    to{box-shadow: 1px 1px 38px blue;}
+}
